@@ -4,7 +4,7 @@ use std::io::prelude::*;
 use std::collections::HashMap;
 
 pub fn call() -> io::Result<()> {
-  let mut file = File::open("day1.txt")?;
+  let mut file = File::open("inputs/day1.txt")?;
   let mut contents = String::new();
   file.read_to_string(&mut contents)?;
 
